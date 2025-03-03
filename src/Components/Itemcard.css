@@ -1,0 +1,23 @@
+.staricon{
+    color: #FFD600;
+}
+
+.carddivs{
+    height: 24px;
+}
+
+.cartdiv{
+    background-color: #F46DEE;
+    border-radius: 3px;
+    width: 34px;
+    height: 28px;
+}
+
+.cardftr{
+    height: 2rem;
+}
+
+.cardtxt{
+    font-family: 'Work Sans';
+    font-weight: 500;
+}

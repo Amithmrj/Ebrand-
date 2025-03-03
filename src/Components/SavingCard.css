@@ -1,0 +1,10 @@
+.salebtn{
+    background: linear-gradient(to right, #806DF4, #F46DEE);
+    color: white; 
+    height: 50px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+  }

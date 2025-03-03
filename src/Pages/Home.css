@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+.topbtn {
+    width: 149.49px;
+    line-height: 18.95px;
+    /*width issue*/
+    border-radius: 10px;
+}
+
+.main-heading {
+    font-size: 75px;
+    font-weight: 700;
+    font-family: "Poppins", serif;
+}
+
+.searchbar{
+    background-color: #F7F7F7;
+}
+
+#h1span {
+    background: linear-gradient(to right, #806DF4, #F46DEE);
+    background-clip: text;
+    color: transparent;
+}
+
+.h1circle1 {
+    width: 480px;
+    height: 480px;
+    background: linear-gradient(#806DF4, #F46DEE);
+    border-radius: 50%;
+}
+
+.h1circle2 {
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(#806DF4, #F46DEE);
+    border-radius: 50%;
+}
+
+.h1text {
+    font-family: "Work Sans", serif;
+    width: 70%;
+}
+
+.bttn {
+    background-color: #806DF4;
+    color: #fff;
+    border: none;
+    width: 136px;
+    height: 46px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#offbadge{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 220px ;
+    height: 70px;
+    z-index: 1;
+}
+
+.offbadgetxt{
+    font-size: 9px;
+    font-family: "Work Sans", serif;
+    margin-top: -5px;
+}
+
+.offbadgehd{
+    font-size: 13px;
+    font-family: "Montserrat", serif;
+}
+
+.highlighth1{
+    font-family: "Poppins", serif;
+    font-size: 55px;
+    margin-top: 70px;
+    font-weight: 600;
+}
+
+.deal{
+    font-family: "Poppins", serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+  .icon{
+    color: white;
+  }

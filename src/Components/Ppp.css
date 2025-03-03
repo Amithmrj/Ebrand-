@@ -1,0 +1,39 @@
+.carousel-container {
+  position: relative;
+  width: 80%;
+  margin: auto;
+  max-width: 800px;
+}
+
+/* Hide Swiper default arrows */
+.swiper-button-prev,
+.swiper-button-next {
+  display: none !important;
+}
+
+/* Custom Navigation Buttons */
+.custom-navigation {
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+}
+
+.custom-navigation .custom-prev,
+.custom-navigation .custom-next {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.custom-navigation .custom-prev:hover,
+.custom-navigation .custom-next:hover {
+  background-color: darkblue;
+}

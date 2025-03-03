@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.newsletter {
+    background-color: #806DF4;
+    height: 245px;
+}
+
+.letter {
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+}
+
+.footerform {
+    width: 400px;
+    height: 60px;
+}
+
+#button-addon2 {
+    background-color: #383838;
+    width: 80px;
+}
+
+.footricon {
+    color: #806DF4;
+}
+
+.footer {
+    margin-left: 6rem;
+    margin-right: 6rem;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+
+.ftrhead {
+    font-family: "Montserrat", serif;
+    font-weight: 700;
+}
+
+.followicon {
+    background-color: #806DF4;
+    width: 50px;
+    height: 50px;
+}
+
+.footertxt {
+    font-family: "Poppins", serif;
+}
+
+hr{
+     margin: 5rem auto 2rem auto;
+    background-color: black;
+    opacity: 1;
+}
+
+.copyrighttxt{
+    font-family: "Poppins", serif;
+    font-size: 14px;
+}
