@@ -23,8 +23,9 @@
 }
 
 .h1circle1 {
-    width: 480px;
-    height: 480px;
+    min-width: 480px;
+    width: 100%;
+    aspect-ratio: 1 / 1;
     background: linear-gradient(#806DF4, #F46DEE);
     border-radius: 50%;
 }
@@ -87,3 +88,25 @@
   .icon{
     color: white;
   }
+
+  @media  (max-width: 972px) {
+    .mainrow{
+        flex-direction: column;
+    }   
+    .h1circle1{
+        min-width: 350px;
+    }
+    .bannerimg{
+        width: 360px;
+    }
+    .bannerdiv{
+        margin-left: 4rem;
+    }
+    #imgdiv{
+        top: -50px !important;
+    }
+    #offbadge{
+        width: 200px ;
+        padding: 0 3px;
+    }
+}

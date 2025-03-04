@@ -30,42 +30,48 @@ function Home() {
     return (
         <>
             <Container className='custom-container'>
-                <Row>
-                    <Col md={7}>
-                        <input placeholder='Search' className='form-control searchbar mt-2' type="text" />
-                        <div className='mt-4 d-none d-md-flex flex-wrap justify-content-center gap-3'>
-                            <button className='btn btn-outline-secondary topbtn '>Category</button>
-                            <button className='btn btn-outline-secondary topbtn '>Category</button>
-                            <button className='btn btn-outline-secondary topbtn '>Category</button>
-                            <button className='btn btn-outline-secondary topbtn '>Category</button>
-                        </div>
-                        <h1 className='main-heading mt-md-4 mt-2'>
-                            All <span id='h1span'>Modern Style</span> <br />
-                            Product Available <br />
-                            Here
-                        </h1>
-                        <p className='h1text'>Lorem ipsum dolor sit amet, consectetur adipisicing. Perferendis illum iure minus magni corporis vel sequi vitae beatae cum dolore est.</p>
-                        <button className='bttn'>Shop Now</button>
-                    </Col>
-                    {/* <Col className='border' md={1}>sfsfs</Col> */}
-                    <Col className=' mt-5' md={5}>
-                        <div className=" d-flex justify-content-center align-items-center" style={{ position: 'relative' }}>
-                            <div id='offbadge' className=' text-center bg-white rounded shadow'>
-                                <h6 className='offbadgehd'>Get Up To 30% Off</h6>
-                                <div className='px-3'>
-                                    <p className='offbadgetxt'>Lorem ipsum dolor sit amet consectetur, Et consequatur eos officia veritatis aut eaque necessitatibus odio?</p>
+                <div className='d-flex justify-content-center'>
+                    <Row className='mainrow'>
+                        <Col md={7}>
+                            <input placeholder='Search' className='form-control searchbar mt-2' type="text" />
+                            <div className='mt-4 d-none d-md-flex flex-wrap justify-content-center gap-3'>
+                                <button className='btn btn-outline-secondary topbtn '>Category</button>
+                                <button className='btn btn-outline-secondary topbtn '>Category</button>
+                                <button className='btn btn-outline-secondary topbtn '>Category</button>
+                                <button className='btn btn-outline-secondary topbtn '>Category</button>
+                            </div>
+                            <h1 className='main-heading mt-md-4 mt-2'>
+                                All <span id='h1span'>Modern Style</span> <br />
+                                Product Available <br />
+                                Here
+                            </h1>
+                            <p className='h1text'>Lorem ipsum dolor sit amet, consectetur adipisicing. Perferendis illum iure minus magni corporis vel sequi vitae beatae cum dolore est.</p>
+                            <button className='bttn'>Shop Now</button>
+                        </Col>
+                        {/* <Col className='border' md={1}>sfsfs</Col> */}
+                        <Col className=' mt-5' md={5}>
+                            <div className=" d-flex justify-content-center align-items-center" >
+                                
+                                
+                                <div className='' style={{ position: 'relative' }}>
+                                <div id='offbadge' className=' text-center bg-white rounded shadow'>
+                                    <h6 className='offbadgehd'>Get Up To 30% Off</h6>
+                                    <div className='px-3'>
+                                        <p className='offbadgetxt'>Lorem ipsum dolor sit amet consectetur, Et consequatur eos officia veritatis aut eaque necessitatibus odio?</p>
+                                    </div>
+                                </div>
+                                    <div className='h1circle1 d-flex justify-content-center align-items-center '>
+                                        <div className='h1circle2'>
+                                        </div>
+                                        <div id='imgdiv' style={{ position: 'absolute', top:'-100px'}}>
+                                    <img className='bannerimg' src="./src/assets/levitating-music-headphones-display 1.svg" alt="" width={500} />
+                                </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div style={{ position: 'absolute', top: '-85px', left: '22px' }}>
-                                <img src="./src/assets/levitating-music-headphones-display 1.svg" alt="" width={500} />
-                            </div>
-                            <div className='h1circle1 d-flex justify-content-center align-items-center'>
-                                <div className='h1circle2'>
-                                </div>
-                            </div>
-                        </div>
-                    </Col>
-                </Row>
+                        </Col>
+                    </Row>
+                </div>
                 <h1 className='highlighth1'>Highlighted Deals of the Week</h1>
                 <Row>
                     <Col md={8}>
